@@ -1,0 +1,3 @@
+[submodule "termux/p10k_config"]
+	path = termux/p10k_config
+	url = https://github.com/2moe/p10k_config.git
