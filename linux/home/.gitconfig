@@ -1,0 +1,11 @@
+[http]
+	sslCAInfo = /etc/ssl/certs/ca-certificates.crt
+	sslBackend = openssl
+[commit]
+	gpgsign = true
+[core]
+	editor = /usr/bin/vim
+[init]
+	defaultBranch = main
+[push]
+	autoSetupRemote = true
