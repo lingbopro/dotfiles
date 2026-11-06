@@ -1,0 +1,106 @@
+[208d518b-00ae-410d-8ab8-68350ad5a178]
+Description=Molili 的设置
+aboverule=2
+belowrule=2
+decorationpolicy=server
+decorationpolicyrule=2
+fullscreenrule=3
+minimize=true
+minimizerule=3
+skiptaskbarrule=2
+title=Molili
+titlematch=2
+wmclass=steam_app
+wmclasscomplete=true
+wmclassmatch=2
+
+[35d94968-41e7-48c5-a299-dbf8226501bc]
+Description=ClassIn Classroom
+clientmachine=localhost
+fullscreenrule=3
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+title=Classroom_
+titlematch=2
+types=1
+wmclass=ClassIn
+wmclassmatch=1
+
+[713dfe71-0293-43a0-9762-8da2836909e1]
+Description=Hexologic.x86_64 的窗口设置
+clientmachine=localhost
+fullscreenrule=2
+ignoregeometryrule=2
+size=2000,1200
+sizerule=3
+title=Hexologic
+titlematch=1
+types=1
+wmclass=Hexologic.x86_64
+wmclassmatch=1
+
+[General]
+Order=713dfe71-0293-43a0-9762-8da2836909e1,ec58921b-bdb8-4d58-8950-4b38a4826cc2,35d94968-41e7-48c5-a299-dbf8226501bc,e47173bd-0f0c-4263-beb1-eca4bfcd1807,c38d5381-7540-4e65-a14c-c12ea011ac57,a7ea40a1-a026-4fcd-8964-6899f8eb5b2c,fbf00793-b718-42f0-955f-70510abc2715,208d518b-00ae-410d-8ab8-68350ad5a178
+
+[a7ea40a1-a026-4fcd-8964-6899f8eb5b2c]
+Description=Waydroid 的窗口设置
+Enabled=false
+decorationpolicy=server
+decorationpolicyrule=3
+types=1
+wmclass=Waydroid
+wmclasscomplete=true
+wmclassmatch=1
+
+[c38d5381-7540-4e65-a14c-c12ea011ac57]
+Description=Minecraft Dungeons 的窗口设置
+Enabled=false
+adaptivesync=false
+adaptivesyncrule=2
+blockcompositing=true
+blockcompositingrule=2
+clientmachine=localhost
+tearingrule=2
+title=Minecraft Dungeons
+titlematch=1
+types=1
+wmclass=steam_app_1672970
+wmclasscomplete=true
+wmclassmatch=2
+
+[e47173bd-0f0c-4263-beb1-eca4bfcd1807]
+Description=warp-taskbar 的窗口设置
+desktopfile=com.cloudflare.WarpTaskbar
+desktopfilerule=3
+title=Cloudflare One Client
+titlematch=1
+types=1
+wmclass=warp-taskbar
+wmclassmatch=1
+
+[ec58921b-bdb8-4d58-8950-4b38a4826cc2]
+Description=qoder-cn 的窗口设置
+decorationpolicy=server
+decorationpolicyrule=2
+title=Qoder Desktop Pet
+titlematch=1
+types=1
+wmclass=electron qoder-cn
+wmclasscomplete=true
+wmclassmatch=1
+
+[fbf00793-b718-42f0-955f-70510abc2715]
+Description=ClassIn
+Enabled=false
+aboverule=2
+adaptivesyncrule=1
+decorationpolicy=server
+decorationpolicyrule=3
+fullscreenrule=3
+title=Classroom_
+types=1
+wmclass=ClassIn
+wmclasscomplete=true
+wmclassmatch=2

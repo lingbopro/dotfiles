@@ -1,0 +1,13 @@
+[/home/lingbopro/.local/share/Trash]
+Days=7
+LimitReachedAction=0
+Percent=10
+UseSizeLimit=true
+UseTimeLimit=false
+
+[/storage/.Trash-1000]
+Days=7
+LimitReachedAction=0
+Percent=10
+UseSizeLimit=true
+UseTimeLimit=false

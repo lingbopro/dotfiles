@@ -1,0 +1,182 @@
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Color=30, 30, 46
+ColorAmount=0.30000000000000004
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=0
+Enable=
+IntensityAmount=-1
+IntensityEffect=0
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=false
+Color=30, 30, 46
+ColorAmount=0.5
+ColorEffect=3
+ContrastAmount=0
+ContrastEffect=0
+Enable=true
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=245, 194, 231
+BackgroundNormal=49, 50, 68
+DecorationFocus=245, 194, 231
+DecorationHover=69, 71, 90
+ForegroundActive=250, 179, 135
+ForegroundInactive=166, 173, 200
+ForegroundLink=245, 194, 231
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=205, 214, 244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
+
+[Colors:Complementary]
+BackgroundAlternate=17, 17, 27
+BackgroundNormal=24, 24, 37
+DecorationFocus=245, 194, 231
+DecorationHover=69, 71, 90
+ForegroundActive=250, 179, 135
+ForegroundInactive=166, 173, 200
+ForegroundLink=245, 194, 231
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=205, 214, 244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
+
+[Colors:Header]
+BackgroundAlternate=17, 17, 27
+BackgroundNormal=24, 24, 37
+DecorationFocus=245, 194, 231
+DecorationHover=69, 71, 90
+ForegroundActive=250, 179, 135
+ForegroundInactive=166, 173, 200
+ForegroundLink=245, 194, 231
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=205, 214, 244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
+
+[Colors:Selection]
+BackgroundAlternate=245, 194, 231
+BackgroundNormal=245, 194, 231
+DecorationFocus=245, 194, 231
+DecorationHover=69, 71, 90
+ForegroundActive=17, 17, 27
+ForegroundInactive=17, 17, 27
+ForegroundLink=17, 17, 27
+ForegroundNegative=17, 17, 27
+ForegroundNeutral=17, 17, 27
+ForegroundNormal=17, 17, 27
+ForegroundPositive=17, 17, 27
+ForegroundVisited=17, 17, 27
+
+[Colors:Tooltip]
+BackgroundAlternate=17, 17, 27
+BackgroundNormal=30, 30, 46
+DecorationFocus=245, 194, 231
+DecorationHover=69, 71, 90
+ForegroundActive=250, 179, 135
+ForegroundInactive=166, 173, 200
+ForegroundLink=245, 194, 231
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=205, 214, 244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
+
+[Colors:View]
+BackgroundAlternate=24, 24, 37
+BackgroundNormal=30, 30, 46
+DecorationFocus=245, 194, 231
+DecorationHover=69, 71, 90
+ForegroundActive=250, 179, 135
+ForegroundInactive=166, 173, 200
+ForegroundLink=245, 194, 231
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=205, 214, 244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
+
+[Colors:Window]
+BackgroundAlternate=17, 17, 27
+BackgroundNormal=24, 24, 37
+DecorationFocus=245, 194, 231
+DecorationHover=69, 71, 90
+ForegroundActive=250, 179, 135
+ForegroundInactive=166, 173, 200
+ForegroundLink=245, 194, 231
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=205, 214, 244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
+
+[General]
+BrowserApplication=microsoft-edge.desktop
+ColorScheme=CatppuccinMochaPink
+ColorSchemeHash=82f669cf546ddd0f0103c7e5b3df8d13777e7b58
+LastUsedCustomAccentColor=233,58,154
+UseSystemBell=true
+XftAntialias=true
+XftHintStyle=hintslight
+XftSubPixel=none
+fixed=Noto Sans Mono CJK SC,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+font=Noto Sans CJK SC DemiLight,10,-1,5,316,0,0,0,0,0,0,0,0,0,0,1,Regular,0,0
+menuFont=Noto Sans CJK SC DemiLight,10,-1,5,316,0,0,0,0,0,0,0,0,0,0,1,Regular,0,0
+smallestReadableFont=Noto Sans CJK SC DemiLight,8,-1,5,316,0,0,0,0,0,0,0,0,0,0,1,Regular,0,0
+toolBarFont=Noto Sans CJK SC DemiLight,10,-1,5,316,0,0,0,0,0,0,0,0,0,0,1,Regular,0,0
+
+[Icons]
+Theme=Papirus-Colors-Dark
+
+[KDE]
+AnimationDurationFactor=0.5
+LookAndFeelPackage=org.kde.breezedark.desktop
+ShowDeleteCommand=false
+contrast=4
+frameContrast=0.2
+widgetStyle=Klassy
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=false
+Decoration position=2
+Preview Width=1118
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=false
+Speedbar Width=89
+View Style=DetailTree
+
+[KScreen]
+ScreenScaleFactors=DP-1=1;eDP-1=1;
+
+[KShortcutsDialog Settings]
+Dialog Size=600,480
+
+[PreviewSettings]
+EnableRemoteFolderThumbnail=false
+MaximumRemoteSize=0
+
+[WM]
+activeBackground=30,30,46
+activeBlend=205,214,244
+activeFont=Noto Sans CJK SC Medium,10,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Regular,0,0
+activeForeground=205,214,244
+inactiveBackground=17,17,27
+inactiveBlend=166,173,200
+inactiveForeground=166,173,200

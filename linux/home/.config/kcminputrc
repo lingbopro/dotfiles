@@ -1,0 +1,20 @@
+[Keyboard]
+NumLock=0
+
+[Libinput][1133][45081][Logitech Wireless Mouse MX Master 2S]
+PointerAccelerationProfile=2
+
+[Libinput][1133][49295][Logitech G403 HERO Gaming Mouse]
+PointerAcceleration=-1.000
+
+[Libinput][1739][33381][SYNA309E:00 06CB:8265 Mouse]
+PointerAccelerationProfile=2
+
+[Libinput][1739][33381][SYNA309E:00 06CB:8265 Touchpad]
+NaturalScroll=true
+PointerAcceleration=-0.200
+PointerAccelerationProfile=2
+ScrollFactor=0.5
+
+[Mouse]
+cursorTheme=Bibata-Modern-Ice

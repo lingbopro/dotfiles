@@ -1,8 +1,21 @@
+[user]
+	name = REDACTED
+	email = REDACTED
+	signingkey = REDACTED
+[credential "https://github.com"]
+	helper =
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper =
+	helper = !/usr/bin/gh auth git-credential
 [http]
 	sslCAInfo = /etc/ssl/certs/ca-certificates.crt
 	sslBackend = openssl
 [commit]
 	gpgsign = true
+[credential "https://codeberg.org"]
+	helper =
+	helper = !tea login helper
 [core]
 	editor = /usr/bin/vim
 [init]

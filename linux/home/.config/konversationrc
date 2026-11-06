@@ -1,0 +1,78 @@
+[Aliases]
+AliasList=cmd /exec cmd,uptime /exec uptime,sysinfo /exec sysinfo,tinyurl /exec tinyurl,fortune /exec fortune,media /exec media,audio /exec media audio,video /exec media video,sayclip /exec sayclip,bug /exec bug,gauge /exec gauge
+
+[Channel 0]
+Name=#konversation
+Password=
+
+[DCC Settings]
+ColumnWidths=51,90,103,173,70,87,157,87,96,165
+PanelSplitter=AAAA/wAAAAEAAAAC//////////8B/////wEAAAACAA==
+
+[Identity 0]
+AuthType=saslplain
+AutomaticAway=false
+AutomaticUnaway=false
+AwayInactivity=10
+AwayMessage=
+AwayNick=
+AwayReason=Gone away for now
+Bot=nickserv
+Codec=UTF-8
+Ident=lingbopro
+InsertRememberLineOnAway=false
+KickReason=User terminated!
+Name=默认身份
+Nicknames=lingbopro,lingbopro_,lingbopro__
+NickservCommand=identify
+PartReason=Konversation terminated!
+Password=
+PemClientCertFile=
+PreShellCommand=
+QuitReason=Konversation terminated!
+Realname=lingbopro
+ReturnMessage=
+SaslAccount=
+ShowAwayMessage=false
+
+[Server 0]
+BypassProxy=false
+Password=
+Port=6697
+SSLEnabled=true
+Server=irc.libera.chat
+
+[Server 1]
+BypassProxy=false
+Password=
+Port=6697
+SSLEnabled=true
+Server=irc.ea.libera.chat
+
+[ServerGroup 0]
+AutoConnect=false
+AutoJoinChannels=Channel 0
+ChannelHistory=
+ConnectCommands=
+EnableNotifications=true
+Expanded=true
+Identity=默认身份
+Name=libera
+NotifyList=
+ServerList=Server 0
+
+[ServerGroup 1]
+AutoConnect=false
+AutoJoinChannels=
+ChannelHistory=
+ConnectCommands=
+EnableNotifications=true
+Expanded=true
+Identity=默认身份
+Name=libera-ea
+NotifyList=
+ServerList=Server 1
+
+[ServerListDialog]
+ServerListHeaderState=\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\xf4\x00\x00\x00\x03\x00\x01\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xc8\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\xc8\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\xc8\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x01\x00\x00\x00\xc8\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01
+Size=533,274

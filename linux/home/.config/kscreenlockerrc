@@ -1,0 +1,8 @@
+[Daemon]
+LockGrace=10
+Timeout=30
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=file:///home/lingbopro/Pictures/Wallpaper/db/1787842414971.png
+PreviewImage=file:///home/lingbopro/Pictures/Wallpaper/db/1787842414971.png
+SlidePaths=/usr/share/wallpapers/

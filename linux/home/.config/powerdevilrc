@@ -1,0 +1,15 @@
+[AC][Display]
+DimDisplayIdleTimeoutSec=900
+TurnOffDisplayIdleTimeoutSec=1200
+
+[AC][SuspendAndShutdown]
+AutoSuspendIdleTimeoutSec=1200
+
+[BatteryManagement]
+BatteryCriticalAction=8
+
+[Inhibitions]
+BlockedInhibitions=org.kde.discover:Flatseal
+
+[LowBattery][Performance]
+PowerProfile=power-saver
