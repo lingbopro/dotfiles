@@ -1,0 +1,40 @@
+# STARTED AT: 2026-11-06 14:07:35.917817566 +08:00
+# VERSION: 0.33.0
+# ARGS: rate-mirrors --save /tmp/tmp.lr7P5tJeIx cachyos
+# FETCHED MIRRORS: 34
+# MIRRORS LEFT AFTER FILTERING: 34
+# JUMP #1
+# EXPLORING CN
+# VISITED CN
+# [CN] SpeedTestResult { speed: 6.3 MB/s; elapsed: 997ms; connection_time: 311ms }
+#     TOP CONNECTION TIME: CN - 311ms
+#     TOP SPEED: CN - 6.3 MB/s
+# 
+# 
+
+# TESTING UNLABELED MIRRORS
+# SpeedTestResult { speed: 747.8 KB/s; elapsed: 998ms; connection_time: 633ms }
+# SpeedTestResult { speed: 130.8 KB/s; elapsed: 939ms; connection_time: 881ms }
+# TOO FEW BYTES LOADED https://cachyos.mirror.sahil.world/repo/
+# SpeedTestResult { speed: 276.8 KB/s; elapsed: 841ms; connection_time: 949ms }
+# SpeedTestResult { speed: 352.8 KB/s; elapsed: 881ms; connection_time: 1.24s }
+# 
+
+# RE-TESTING TOP MIRRORS
+# [CN] SpeedTestResult { speed: 14.4 MB/s; elapsed: 435ms; connection_time: 284ms }
+# SpeedTestResult { speed: 356.1 KB/s; elapsed: 999ms; connection_time: 283ms }
+# SpeedTestResult { speed: 346.1 KB/s; elapsed: 618ms; connection_time: 832ms }
+# SpeedTestResult { speed: 345.2 KB/s; elapsed: 759ms; connection_time: 831ms }
+# SpeedTestResult { speed: 263.1 KB/s; elapsed: 930ms; connection_time: 1.27s }
+# ==== RESULTS (top re-tested) ====
+#   1. [CN] SpeedTestResult { speed: 14.4 MB/s; elapsed: 435ms; connection_time: 284ms } -> https://mirrors.ustc.edu.cn/cachyos/repo/
+#   2. SpeedTestResult { speed: 356.1 KB/s; elapsed: 999ms; connection_time: 283ms } -> https://mirror5.krfoss.org/cachyos/repo/
+#   3. SpeedTestResult { speed: 346.1 KB/s; elapsed: 618ms; connection_time: 832ms } -> https://cdn.lansing2600.org/cachyos/repo/
+#   4. SpeedTestResult { speed: 345.2 KB/s; elapsed: 759ms; connection_time: 831ms } -> https://mirror.krfoss.org/cachyos/repo/
+#   5. SpeedTestResult { speed: 263.1 KB/s; elapsed: 930ms; connection_time: 1.27s } -> https://cdn77.cachyos.org/repo/
+# FINISHED AT: 2026-11-06 14:07:49.491855817 +08:00
+Server = https://mirrors.ustc.edu.cn/cachyos/repo/$arch/$repo
+Server = https://mirror5.krfoss.org/cachyos/repo/$arch/$repo
+Server = https://cdn.lansing2600.org/cachyos/repo/$arch/$repo
+Server = https://mirror.krfoss.org/cachyos/repo/$arch/$repo
+Server = https://cdn77.cachyos.org/repo/$arch/$repo

@@ -1,0 +1,13 @@
+[General]
+loginMode=emptySession
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=102201701b61ad000178133943900000537300002
+count=1
+program1=/usr/lib/office6/wpscloudsvr
+restartCommand1=/usr/lib/office6/wpscloudsvr,-session,102201701b61ad000178133943900000537300002_1781340561_23271
+restartStyleHint1=0
+userId1=lingbopro
